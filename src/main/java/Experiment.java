@@ -8,7 +8,7 @@ import java.util.Random;
 public class Experiment {
 
     private static final int[] SIZES = {
-            100, 500, 1000, 5000, 10000
+            100, 500, 1000, 5000, 10000, 50000
     };
 
     private static final String[] INPUT_TYPES = {
