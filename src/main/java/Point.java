@@ -1,3 +1,2 @@
-public class Point
-{
+public class Point {
 }
