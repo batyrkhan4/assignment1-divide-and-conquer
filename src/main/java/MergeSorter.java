@@ -18,12 +18,7 @@ public class MergeSorter {
         mergeSort(array, buffer, 0, array.length - 1, 1);
     }
 
-    private void mergeSort(
-            int[] array,
-            int[] buffer,
-            int left,
-            int right,
-            int currentDepth) {
+    private void mergeSort(int[] array, int[] buffer, int left, int right, int currentDepth) {
 
         maxRecursionDepth = Math.max(maxRecursionDepth, currentDepth);
 
@@ -45,12 +40,7 @@ public class MergeSorter {
         merge(array, buffer, left, middle, right);
     }
 
-    private void merge(
-            int[] array,
-            int[] buffer,
-            int left,
-            int middle,
-            int right) {
+    private void merge(int[] array, int[] buffer, int left, int middle, int right) {
 
         int i = left;
         int j = middle + 1;
