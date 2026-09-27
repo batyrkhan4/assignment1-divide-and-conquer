@@ -6,7 +6,8 @@ public class Main {
         //testMergeSort();
         //testQuickSort();
         //testDeterministicSelect();
-        testClosestPair();
+        //testClosestPair();
+        Experiment.runExperiments();
     }
     private static void testMergeSort() {
         System.out.println("========== MERGE SORT ==========");
@@ -119,4 +120,5 @@ public class Main {
 
         System.out.println();
     }
+
 }
