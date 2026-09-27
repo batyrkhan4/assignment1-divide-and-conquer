@@ -3,10 +3,10 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        //testMergeSort();
-        //testQuickSort();
-        //testDeterministicSelect();
-        //testClosestPair();
+        testMergeSort();
+        testQuickSort();
+        testDeterministicSelect();
+        testClosestPair();
         Experiment.runExperiments();
     }
     private static void testMergeSort() {
